@@ -6,5 +6,9 @@ The :lt() selector is used in the selector to pick list items with an index numb
 ```
 $('li:lt(2)').removeClass('hot');
 ```
+The .eq() method selects the first item using the number 0 because the index numbers start at zero. It adds the value of complete to the class attribute.
+```
+$('li').eq(0).addClass('complete');
+```
 
 
