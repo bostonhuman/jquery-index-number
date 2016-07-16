@@ -10,5 +10,11 @@ The .eq() method selects the first item using the number 0 because the index num
 ```
 $('li').eq(0).addClass('complete');
 ```
+## How to run the app locally?
 
+* In your terminal type:
+```
+git clone https://github.com/bostonhuman/jquery-index-number
+```
+* Open index-numbers.html to run the app.
 
